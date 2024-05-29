@@ -3,7 +3,8 @@
 - Configure Tailwind
 - Header - Set the logo
 - Configure the background page for Login 
-- Login form 
+- Login form (Sign Up/Sign In)
+- Form Validation
 
 
 # Features
