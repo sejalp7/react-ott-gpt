@@ -1,6 +1,9 @@
 # Setup
 - npx create-react-app 'app_name'
 - Configure Tailwind
+- Header - Set the logo
+- Configure the background page for Login 
+- Login form 
 
 
 # Features
