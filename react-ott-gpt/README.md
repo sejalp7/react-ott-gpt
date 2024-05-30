@@ -5,6 +5,18 @@
 - Configure the background page for Login 
 - Login form (Sign Up/Sign In)
 - Form Validation
+- useRef hook
+- Firebase configuation
+   - npm install firebase
+   - npm install -g firebase-tools
+   - firebase login
+   - firebase init, select hosting option
+   - firebase deploy
+- Deploying app to production
+- Creating a sign up/in user account using firebase
+- Create context to store the logged in user detail 
+    - useContext hook
+
 
 
 # Features

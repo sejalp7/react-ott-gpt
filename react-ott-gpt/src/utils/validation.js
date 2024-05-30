@@ -2,7 +2,7 @@ const emailValidation = (email) => {
   const isValid = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(
     email
   );
-  return !isValid ? { email: "Email is invalid" } : { email: "" };
+  return !isValid ? { email: "Email is invalid" } : "";
 };
 
 const passwordValidation = (password) => {
@@ -10,7 +10,7 @@ const passwordValidation = (password) => {
     /^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/.test(
       password
     );
-  return !isValid ? { password: "Password is invalid" } : { password: "" };
+  return !isValid ? { password: "Password is invalid" } : "";
 };
 
 
@@ -18,7 +18,7 @@ const requiredFieldValidation = (field) => {
     // const isValid =  /^\S.*$/.test(
     //     field
     // );
-  return field?.length <= 0 ? { fullname: "Name is required" } : { fullname: "" };
+  return field?.length <= 0 ? { fullname: "Name is required" } : "";
 }
 
 export const checkFieldValidation = (field) => {
